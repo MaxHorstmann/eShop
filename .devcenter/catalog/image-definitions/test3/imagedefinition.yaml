@@ -1,0 +1,15 @@
+$schema: "1.0"
+name: "test3withspotify"
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "installs a few winget packages"
+
+tasks:
+  - name: ~/winget
+    description: Install AZD
+    parameters:
+      package:  Microsoft.Azd
+
+  - name: ~/winget
+    description: Install Spotiy
+    parameters:
+      package:  Spotify.Spotify
