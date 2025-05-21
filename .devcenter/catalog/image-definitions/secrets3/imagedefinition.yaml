@@ -9,4 +9,4 @@ tasks:
     parameters:
       repositoryUrl: https://github.com/MaxHorstmann/Deployment-Environments-PrivatePreview.git
       directory: C:\code\Deployment-Environments-PrivatePreview
-      pat: "{{https://thiskeyvaultdoesnotexist.vault.azure.net/secrets/pat}}"
+      pat: "{{https://maxhorstmanntestkv7.vault.azure.net/secrets/pat}}"
