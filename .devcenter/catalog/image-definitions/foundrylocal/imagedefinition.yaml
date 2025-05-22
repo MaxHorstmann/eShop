@@ -1,0 +1,10 @@
+$schema: "1.0"
+name: "foundrylocal"
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "installs foundry local"
+
+tasks:
+  - name: ~/winget
+    description: Install Foundry Local
+    parameters:
+      package:  Microsoft.FoundryLocal
