@@ -1,0 +1,142 @@
+$schema: '1.0'
+name: 'corel'
+image: 'microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc'
+description: 'testing'
+
+tasks:
+  - name: ~/powershell
+    parameters:
+      command: |
+        mkdir 'c:/devbox-test'
+        
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Alibaba.AlibabaCloudCLI
+      version: 3.0.291
+
+  - name: ~/winget
+    parameters:
+      package: Corel.WinZip
+      version: 29.0.16250
+
+# It requires to run on UserTask
+  # - name: ~/winget
+  #   timeout: 3600
+  #   parameters:
+  #     package: CoreyButler.NVMforWindows
+  #     version: 1.2.2
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: DEVCOM.Jmeter
+      version: 5.6.3
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Git.Git
+      version: 2.50.1
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: GoLang.Go
+      version:  1.24.5
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Hashicorp.Terraform
+      version: 1.12.2
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: JetBrains.IntelliJIDEA.Community
+      version: 2025.1.4
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Kubernetes.kubectl
+      version: 1.33.3
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Microsoft.AzureCLI
+      version: 2.75.0
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Microsoft.DotNet.SDK.8
+      version: 8.0.412
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Microsoft.SQLServerManagementStudio
+      version: 20.2.1
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Microsoft.VisualStudioCode
+      version: 1.102.2
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Microsoft.WSL
+      version: 2.5.9
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Notepad++.Notepad++
+      version: 8.8.3
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: OpenJS.NodeJS
+      version: 24.4.1
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Oracle.JDK.17
+      version: 17.0.12.0
+      
+# It requires to run on UserTask
+  # - name: ~/winget
+  #   parameters:
+  #     package: Oracle.MySQLWorkbench
+  #     version: 8.4.5
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: PostgreSQL.pgAdmin
+      version: 9.5
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: Python.Python.3.13
+      version: 3.13.5
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: RedHat.Podman
+      version: 5.5.2
+
+  - name: ~/winget
+    timeout: 3600
+    parameters:
+      package: SmartBear.SoapUI
+      version: 5.9.0
