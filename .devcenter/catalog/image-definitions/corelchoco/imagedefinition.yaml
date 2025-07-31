@@ -9,7 +9,7 @@ tasks:
     parameters:
       package: notepadplusplus.install
         
-  - name: choco
+  - name: devcenterCatalog/choco
     parameters:
       package: Corel.WinZip
       version: 29.0.16250
