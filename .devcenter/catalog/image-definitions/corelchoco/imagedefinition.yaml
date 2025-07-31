@@ -5,7 +5,7 @@ description: 'testing'
 
 tasks:
 
-  - name: choco
+  - name: devcenterCatalog/choco
     parameters:
       package: notepadplusplus.install
         
