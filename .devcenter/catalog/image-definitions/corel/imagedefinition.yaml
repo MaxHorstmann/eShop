@@ -1,5 +1,5 @@
 $schema: '1.0'
-name: 'corel'
+name: 'corel2'
 image: 'microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc'
 description: 'testing'
 
