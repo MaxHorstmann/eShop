@@ -1,0 +1,15 @@
+$schema: '1.0'
+name: 'corelchoco'
+image: 'microsoftwindowsdesktop_windows-ent-cpc_win11-24h2-ent-cpc'
+description: 'testing'
+
+tasks:
+
+  - name: choco
+    parameters:
+      package: notepadplusplus.install
+        
+  - name: choco
+    parameters:
+      package: Corel.WinZip
+      version: 29.0.16250
