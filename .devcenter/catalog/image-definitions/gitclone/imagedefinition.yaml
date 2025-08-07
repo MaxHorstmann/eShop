@@ -1,6 +1,6 @@
 $schema: 1.0
 name: custom-hibernate-support-gitclone
-image: win10-22h2-entn-g2@1.0.0
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 tasks:
     - name: ~/Gitclone
       parameters:
