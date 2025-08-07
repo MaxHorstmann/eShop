@@ -1,0 +1,8 @@
+$schema: 1.0
+name: custom-hibernate-support-gitclone
+image: win10-22h2-entn-g2@1.0.0
+tasks:
+    - name: ~/Gitclone
+      parameters:
+        repositoryUrl: https://github.com/microsoft/calculator
+        directory: C:\Workspaces
