@@ -1,0 +1,12 @@
+$schema: "1.0"
+name: "secrets5"
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "clones a git repo using a secret 5"
+
+tasks:
+  - name: git-clone
+    description: Clone this repository
+    parameters:
+      repositoryUrl: https://github.com/microsoft/devcenter-catalog.git
+      directory: C:\code
+      pat: "{{https://maxhorstmann-kv.vault.azure.net/secrets/pat}}"
