@@ -1,0 +1,10 @@
+$schema: "1.0"
+name: "secrets"
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "just writes a string, doesn't actually use a secret"
+
+tasks:
+  - name: powershell
+    parameters:
+      command: |
+        Write-Host "Hello world!"
