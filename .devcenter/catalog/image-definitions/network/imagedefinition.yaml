@@ -6,7 +6,7 @@ buildProperties:
     networkConnection: "testnc1"
 
 tasks:
-  - name: powershell
+  - name: ~/powershell
     parameters:
       command: |
         Write-Host "Hello world!"
